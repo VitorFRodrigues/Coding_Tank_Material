@@ -88,4 +88,4 @@ SELECT
 	COUNT(DISTINCT item_id) AS qtd_venda_distinta
 FROM 
 	sales
-GROUP BY 1
+GROUP BY 1;
