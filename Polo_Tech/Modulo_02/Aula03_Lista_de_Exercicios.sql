@@ -89,18 +89,3 @@ SELECT
 FROM 
 	sales
 GROUP BY 1
-ORDER BY 2 DESC 
-
-
-SELECT * 
-FROM 
-	sales
-ORDER BY total_venda
-LIMIT 5;
-
-SELECT 
-	DISTINCT item_id,
-	COUNT(item_id)
-FROM
-	sales
-GROUP BY 1
